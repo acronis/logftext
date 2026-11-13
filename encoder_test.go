@@ -269,7 +269,7 @@ func TestEncoder(t *testing.T) {
 				cfg.NoColor = &tc.NoColor
 
 				enc := NewEncoder(cfg)
-				enc.Encode(b, e)
+				require.NoError(t, enc.Encode(b, e))
 			}
 
 			require.EqualValues(t, tc.Golden, b.String())
