@@ -1,9 +1,7 @@
 # logf Appender and Encoder for colored text logs
 
-[![GoDoc](https://godoc.org/github.com/acronis/logftext?status.svg)](https://godoc.org/github.com/acronis/logftext)
-[![Build Status](https://travis-ci.org/acronis/logftext.svg?branch=master)](https://travis-ci.org/acronis/logftext)
-[![Go Report Status](https://goreportcard.com/badge/github.com/acronis/logftext)](https://goreportcard.com/report/github.com/acronis/logftext)
-[![Coverage Status](https://coveralls.io/repos/github/acronis/logftext/badge.svg?branch=master)](https://coveralls.io/github/acronis/logftext?branch=master)
+[![Go Reference](https://pkg.go.dev/badge/github.com/acronis/logftext.svg)](https://pkg.go.dev/github.com/acronis/logftext)
+[![Build Status](https://github.com/acronis/logftext/actions/workflows/go.yml/badge.svg)](https://github.com/acronis/logftext/actions/workflows/go.yml)
 
 Package `logftext` provides `logf` Appender and Encoder for colored text logs.
 
